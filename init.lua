@@ -1,4 +1,4 @@
-cjson = require "json"
+cjson = require "cjson"
 common = require "stats.common"
 cache_status = {"MISS", "BYPASS", "EXPIRED", "STALE", "UPDATING", "REVALIDATED", "HIT"}
 local stats = ngx.shared.ngx_stats;
